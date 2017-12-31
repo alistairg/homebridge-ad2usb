@@ -1,6 +1,6 @@
 {
   "name": "homebridge-ad2usb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Homebridge to AD2USB (Network) interface",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "url": "git://github.com/alistairg/homebridge-ad2usb.git"
   },
   "dependencies": {
-    "ad2usb": "git+https://github.com/alistairg/node-ad2usb.git#local"
+    "ad2usb": "git+https://github.com/alistairg/node-ad2usb.git"
   },
   "author": "Alistair Galbraith",
   "license": "ISC",
