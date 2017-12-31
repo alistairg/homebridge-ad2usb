@@ -1,0 +1,39 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "BC:22:3D:E3:CE:30",
+        "port": 51826,
+        "pin": "555-12-123"
+    },
+
+    "description": "This is an example configuration file with one fake accessory and one fake platform. You can use this as a template for creating your own configuration file containing devices you actually own.",
+
+    "accessories": [
+
+    ],
+
+    "platforms": [
+      {
+          "platform" : "AD2USB",
+          "name" : "AD2USB",
+          "host": "192.168.1.3",
+          "port": 10000,
+          "pin": "1234",
+          "rfContacts": [
+              {
+                  "name": "Front Door",
+                  "serial": "0158573",
+                  "loop": 2
+              }
+
+          ],
+          "rfMotionSensors": [
+              {
+                  "name": "Living Room Motion",
+                  "serial": "013778",
+                  "loop": 1
+              }
+          ]
+      }
+    ]
+}
